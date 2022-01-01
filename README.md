@@ -1,13 +1,10 @@
-# XReSign 
-XReSign allows you to sign or resign unencrypted ipa-files with certificate for which you hold the corresponding private key. Checked for developer, ad-hoc and enterprise distribution. 
+# SideloadSign
+SideloadSign is an IPA signer based on XreSign and built for SideloadStore to sign apps.  this adds the option to sing apps with your apple ID and directly signed on to device simalar to Altstore.  I will release a terminal exec first then a GUI program.  
 
-## How to use
+## Supported Devices
+SideloadSign will work on Mac and Linux (no windows support)
 
-### GUI application
-![Screenshot](https://github.com/xndrs/XreSign/blob/master/screenshot/screenshot.png)
 
-### Shell command
-In addition to GUI app, you can find, inside Scripts folder, xresign.sh script to run resign task from the command line.
 
 ### Usage:
 ```
@@ -20,5 +17,7 @@ where:
 -p  path to mobile provisioning file (Optional)
 -b  bundle identifier (Optional)
 ```
-## Acknowledgments
-Inspired by such great tool as iReSign and other command line scripts to resign the ipa files. Unfortunately a lot of them not supported today. So this is an attempt to support resign the app bundle components both through the GUI application and through the command line script.
+## Credits
+big thanks to the XReSign team who made this project.
+-Applec0r Dev
+-ZDC
